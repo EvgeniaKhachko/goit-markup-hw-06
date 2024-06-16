@@ -304,6 +304,9 @@ margin: 0;
 .name {
     padding: 32px 0;
 }
+.strategy {
+    width: calc((100% - 72px) / 4);
+}
 .about-us{
     font: 500 20px / 1.2 "Roboto", sans-serif;
         letter-spacing: 0.02em;
