@@ -1,0 +1,374 @@
+/*---Media-768---*/
+
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 768px;
+    }
+    .nav-link {
+        display: flex;
+        gap: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    .open-menu-btn {
+        display: none;
+    }
+    .address {
+        display: block;
+    }
+    .logo {
+        margin-right: 120px;
+    }
+
+.curent {
+    position: relative;
+    color: #404bbf;
+}
+
+.curent::after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    content: "";
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    background-color: #404bbf;
+}
+
+.nav-link a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.home:hover,
+.home:focus {
+    color: #404bbf;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+    margin-left: auto;
+}
+
+.address-link {
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address-list {
+     display: flex;
+     flex-direction: column;
+    gap: 11px;
+        }
+/*------main-section-------*/
+
+.section-title .title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.04em;
+    max-width: 496px;
+        margin-bottom: 36px;
+       
+}
+.section-title {
+padding: 112px 0;
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/Dark-bg-tab-1x.jpg);
+    }
+    .team-our{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 24px;
+    }
+
+        .about-us {
+            font: 500 20px / 1.2 "Roboto", sans-serif;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+            text-align: left;
+        }
+
+
+ .about {
+    margin: 96px 0;
+ }
+
+ul.about-list {
+    row-gap: 72px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 24px;
+}
+.strategy {
+width: calc((100% - 24px) / 2);
+
+}
+
+.goal {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+}
+
+        .team-our .mark{
+        margin-bottom: 64px;
+    }
+.portfolio-container ul {
+    display: flex;
+}
+
+.portfoliolist {
+    column-gap: 24px;
+    flex-wrap: wrap;  
+}
+ .banking {
+     margin-bottom: 0;
+    width: 356px;
+}
+
+.portfoliolist {
+    column-gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    }
+    .footer-holder {
+         margin-left: 92px;
+        ;
+        }
+                .footer a.logo {
+                    display: flex;
+                }
+                .logo {
+                    margin-bottom: 16px;
+                    padding: 0;
+                }
+.footer-content {
+
+    flex-wrap: wrap;
+    display: flex;
+        gap: 24px;
+        justify-content: left;
+}
+.social-media p {
+        text-align: left;
+}
+.icon-socialka-footer {
+    padding: 0;
+       
+}
+.email-input-footer {
+    margin-left: 92px;
+}
+p.subscribe {
+        text-align: left;
+}
+.input-email {
+        opacity: 0.6;
+}
+.button-subscribe {
+    margin-top: 0;
+    margin-left: 24px;
+}
+
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .section-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/Dark-bg-tab-2x.jpg);
+    }
+}
+
+ /*---Media-1158---*/
+
+@media screen and (min-width: 1158px) {
+    .container{
+        max-width: 1158px;
+        padding: 0 20px;
+                
+    }
+    .logo {
+        margin-right: 76px;
+    }
+    .address-list {
+        flex-direction: row;
+        gap: 40px;
+       
+    }
+        .address {
+            font-size: 16px;
+            line-height: 1.5;
+        } 
+
+    .nav-link a {
+        display: flex;
+    }
+  
+/*-----section-About------*/
+
+.section-title .title {
+    margin-bottom: 48px;
+    width: 100%;
+      
+                letter-spacing: 0.02em;
+}
+.section-title {
+    margin-bottom: 120px;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office-desc-1x.jpg);
+    }
+
+.strategy {
+  
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 8px;
+} 
+.about-container ul {
+        flex-direction: row;
+}
+
+
+.about-list {
+    gap: 24px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.icons-antenna {
+    display: flex;
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    height: 112px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.goal {
+    font: 400 16px / 1.5 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
+   
+}
+/*------section-Team-----*/
+.team {
+margin: 0;
+    
+}
+  
+.team-our {
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    background: #f4f4fd;
+
+}
+
+.team-container ul {
+    display: flex;
+}
+
+.our-team {
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    padding-top: 0;
+    margin-top: 120px;
+}
+
+.team-our .mark {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
+
+.name {
+    padding: 32px 0;
+}
+.about-us{
+    font: 500 20px / 1.2 "Roboto", sans-serif;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+} 
+
+.team li p,
+.team li h3 {
+    text-align: center;
+}
+.portfolio-container ul {
+    display: flex;
+}
+.portfoliolist{
+    row-gap: 48px;
+    margin-bottom: 120px;
+}
+ .footer {
+     padding: 100px 0; 
+    }
+.footer-content {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: inherit;
+    gap: 0;
+}
+.footer-holder {
+    margin-right: 120px;
+    margin-left: 0;
+}
+.footer a.logo {
+    margin-bottom: 16px;}
+    .icon-socialka-footer {
+         padding: 0;
+        width: 208px;
+    }
+        .email-input-footer {
+            margin-left: 80px;
+        }
+.email-bg {
+    display: flex;
+      justify-content: left;
+}
+.social-media{
+    margin-right: 80px;
+}
+.email-input-footer {
+    margin-left: 0;
+            display: flex;
+                flex-flow: wrap;
+                column-gap: 24px;
+}
+.footer-holder {
+    margin-laeft: 0;
+    margin-bottom: 0;
+}
+
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .section-title {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+             url(../images/people-office-desc-2x.jpg)
+            }
+        }
+    
