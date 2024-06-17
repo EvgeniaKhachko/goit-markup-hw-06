@@ -244,14 +244,11 @@ p.subscribe {
 .about-container ul {
         flex-direction: row;
 }
-
-
-.about-list {
-    gap: 24px;
-    display: flex;
-    margin: 0;
-    padding: 0;
+.about {
+            margin: 120px 0;
 }
+
+
 .icons-antenna {
     display: flex;
     background-color: #f4f4fd;
@@ -299,6 +296,7 @@ margin: 0;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
+            margin-bottom: 120px;
 }
 
 .name {
