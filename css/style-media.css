@@ -148,14 +148,14 @@ width: calc((100% - 24px) / 2);
     }
     .footer-holder {
          margin-left: 92px;
-        ;
+        
         }
-                .footer a.logo {
-                    display: flex;
+        .footer a.logo {
+            display: flex;
                 }
-                .logo {
-                    margin-bottom: 16px;
-                    padding: 0;
+        .logo {
+             margin-bottom: 16px;
+            padding: 0;
                 }
 .footer-content {
 
@@ -184,6 +184,10 @@ p.subscribe {
     margin-top: 0;
     margin-left: 24px;
 }
+ .window-modal {
+  width: 408px; 
+min-height: 584px;
+ }
 
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
