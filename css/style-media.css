@@ -84,9 +84,23 @@
 }
 .section-title {
 padding: 112px 0;
- background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        
         url(../images/Dark-bg-tab-1x.jpg);
+}
+
+@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .section-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/Dark-bg-tab-2x.jpg);
     }
+}
+
+
+
+
     .team-our{
                 display: flex;
                 align-items: center;
@@ -231,16 +245,27 @@ min-height: 584px;
 .section-title .title {
     margin-bottom: 48px;
     width: 100%;
-      
-                letter-spacing: 0.02em;
+     letter-spacing: 0.02em;
 }
+
+
 .section-title {
-    margin-bottom: 120px;
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)),
-    url(../images/people-office-desc-1x.jpg);
+        margin-bottom: 120px;
+            padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-desc-1x.jpg);
+}
+
+@media screen and (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .section-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-desc-2x.jpg);
     }
+}
+
+
 
 .strategy {
   
@@ -333,7 +358,13 @@ margin: 0;
  .footer {
      padding: 100px 0; 
     }
+.footer-description {
+    width: 264px;
+}
+
+
 .footer-content {
+    width: 1158px;
     display: flex;
     align-items: baseline;
     flex-wrap: inherit;
@@ -371,12 +402,5 @@ margin: 0;
 }
 
 }
-@media screen and (-webkit-min-device-pixel-ratio: 2),
-        (min-resolution: 2dppx),
-        (min-resolution: 192dpi) {
-            .section-title {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-             url(../images/people-office-desc-2x.jpg)
-            }
-        }
+
     
