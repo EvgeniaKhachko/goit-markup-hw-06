@@ -149,9 +149,7 @@ width: calc((100% - 24px) / 2);
         color: #434455;
 }
 
-        .team-our .mark{
-        margin-bottom: 64px;
-    }
+   
 .portfolio-container ul {
     display: flex;
 }
