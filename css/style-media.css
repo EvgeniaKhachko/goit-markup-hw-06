@@ -152,6 +152,8 @@ width: calc((100% - 24px) / 2);
    
 .portfolio-container ul {
     display: flex;
+            flex-direction: row;
+                row-gap: 72px;
 }
 
 .portfoliolist {
