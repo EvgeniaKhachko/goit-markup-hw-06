@@ -245,7 +245,6 @@ min-height: 584px;
 
 .section-title {
     max-width: 1440px;
-    margin-bottom: 120px;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office-desc-1x.jpg);
@@ -280,8 +279,11 @@ min-height: 584px;
         flex-direction: row;
 }
 .about {
-            margin: 120px 0;
-}
+         padding: 120px 0;
+          margin: 0;       
+       }
+                  
+
 
 
 .icons-antenna {
@@ -303,7 +305,7 @@ min-height: 584px;
 /*------section-Team-----*/
 .team {
 margin: 0;
-    
+    padding: 0;
 }
   
 .team-our {
@@ -351,12 +353,16 @@ margin: 0;
 .team li h3 {
     text-align: center;
 }
+    .portfolio {
+            padding: 120px 0;
+        }
+
 .portfolio-container ul {
     display: flex;
 }
 .portfoliolist{
     row-gap: 48px;
-    margin-bottom: 120px;
+    
 }
  .footer {
      padding: 100px 0; 
