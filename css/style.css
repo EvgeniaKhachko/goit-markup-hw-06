@@ -194,10 +194,10 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .about-us {
-    font: 500 20px / 1.2 "Roboto", sans-serif;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+font: 700 36px / 1.11111 "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
     margin-bottom: 8px;
 }
 .about-container ul{
@@ -242,7 +242,9 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     display: flex;
 }
 .team-our {
-    
+    display: flex;
+        flex-direction: column;
+        gap: 72px;
     margin: 0;
     padding: 0;
     background: #f4f4fd;

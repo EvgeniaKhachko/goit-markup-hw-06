@@ -74,6 +74,7 @@
         }
 /*------main-section-------*/
 
+
 .section-title .title {
     font-size: 56px;
     line-height: 1.07;
@@ -106,7 +107,9 @@ padding: 112px 0;
                 align-items: center;
                 justify-content: center;
                 flex-wrap: wrap;
-                gap: 24px;
+                    row-gap: 64px;
+                    column-gap: 24px;
+                    flex-direction: unset;
     }
 .name .about-us {
     font: 500 20px / 1.2 "Roboto", sans-serif;
@@ -242,6 +245,13 @@ min-height: 584px;
   
 /*-----section-About------*/
 
+.section-title {
+    max-width: 1440px;
+    margin-bottom: 120px;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-desc-1x.jpg);
+}
 .section-title .title {
     margin-bottom: 48px;
     width: 100%;
@@ -249,12 +259,7 @@ min-height: 584px;
 }
 
 
-.section-title {
-        margin-bottom: 120px;
-            padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/people-office-desc-1x.jpg);
-}
+
 
 @media screen and (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
